@@ -14,7 +14,7 @@ using namespace std;
 class movie : public person{
 public:
 
-	// test
+	// output all information
 	void outputAll()
 	{
 		for (int i = 0; i < mName.size(); i++)
@@ -133,6 +133,7 @@ public:
 		cout << endl;
 	}
 
+	// output only one item
 	void output(int i)
 	{
 		cout << "Name: " << mName[i] << endl;
